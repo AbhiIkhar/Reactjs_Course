@@ -1,0 +1,17 @@
+{
+  "name": "first-package",
+  "version": "1.0.0",
+  "description": "This is the first package created by Abhi",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Abhishek",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+    
+  }
+}
+
+
