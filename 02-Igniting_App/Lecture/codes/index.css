@@ -1,0 +1,17 @@
+#parent{
+    background-color: red;
+    width: 50vw;
+    height: 50vh;
+}
+#child1{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    color: blanchedalmond;
+}
+#child2{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    color: blanchedalmond;
+}

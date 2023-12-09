@@ -1,0 +1,28 @@
+{
+  "name": "practise",
+  "version": "1.0.0",
+  "description": "This package I am making to build muscle memory ",
+  "scripts": {
+    "test": "Jest",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "keywords": [
+    "Practise",
+    "React",
+    "ReactDOM"
+  ],
+  "author": "Abhishek",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "last 3 versions"
+  ]
+}

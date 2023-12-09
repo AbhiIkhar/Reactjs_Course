@@ -49,7 +49,6 @@
 4.  What is crossorigin in script tag?
     --> The crossorigin attribute in the HTML script tag is not used to disable or enable CORS (Cross-Origin Resource Sharing). Instead, it is used to indicate whether the browser should make a CORS request when fetching the script file.
     If you include a script in your HTML file with the crossorigin attribute set, the browser will treat the script as a cross-origin request and include the appropriate CORS headers in the request. This is useful when loading scripts from a different domain.
-
 5.  Why is react k/as react ?
     --> The name reflects the libraries core concepts i.e reacting to changes of data or state and updating accordingly.
 

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+#root{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#child1{
+    width: 70%;
+    height: 60%;
+    background-color: rgb(195, 28, 83);
+    color: black;
+}
+
+#child2{
+    width: 70%;
+    height: 60%;
+    background-color: rgb(124, 204, 11);
+    color: black;
+}
