@@ -7,6 +7,8 @@
 Ex: {id:"heading"}
 Here this heading --> react h1 element --> it will be a js object.
 props: things which we will pass to the element.
+
+ 
 */
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(heading);

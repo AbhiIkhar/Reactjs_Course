@@ -59,7 +59,7 @@
     ---> One is suitable for developement there is additional codes in that where as in production code is an optimized code here the uneccessary things is removed.
 
 8.  What is async and defer ?
-    ---> Both async and defer are boolean attributes that can be applied to the script tag to control the behavior of script loading and execution.7
+    ---> Both async and defer are boolean attributes that can be applied to the script tag to control the behavior of script loading and execution. NOTE: The defer attribute has no effect on module scripts — they defer by default.
     ---> ![Alt text](image.png)
     a. async is not take care of order of execution of scripts , when u have to use some external scripts. ex: s
     b. defer is take care of order of execution of scripts.

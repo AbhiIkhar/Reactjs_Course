@@ -1,0 +1,23 @@
+## Low level Design :
+
+- App
+  - Header
+    - Logo
+    - navItems
+      - Home
+      - About
+      - Contact
+      - Cart
+  - Body
+    - Search bar
+    - Resto Container
+      - List of Resto Cards
+        - Card
+          - Img
+          - Name
+          - Hotel Name
+          - Price
+          - Delivery Time
+  - Footer
+    - Copyright
+    - Contact details

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.app {
+  box-sizing: border-box;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  justify-content: center;
+  align-items: center;
+  gap: 60%;
+  height: 10%;
+  margin-bottom: 3%;
+  display: flex;
+  box-shadow: 0 0 .5em;
+}
+
+.logo-container {
+  border: .2em solid #969090;
+  border-radius: 1em;
+}
+
+.nav-items > ul {
+  gap: 1em;
+  font-size: 2em;
+  display: flex;
+}
+
+.main {
+  height: 67%;
+}
+
+.Search {
+  text-align: center;
+  height: 9%;
+  padding-bottom: 3%;
+}
+
+.resList {
+  flex-wrap: wrap;
+  gap: 1em;
+  height: 88%;
+  margin: 2%;
+  display: flex;
+  overflow: scroll;
+}
+
+.res-card {
+  background-color: #c3bacb;
+  border: .1em solid #000;
+  width: 10%;
+  padding: 1%;
+}
+
+.res-image {
+  width: 100%;
+  height: 50%;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */

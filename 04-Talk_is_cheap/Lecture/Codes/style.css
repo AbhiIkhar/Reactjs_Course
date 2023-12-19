@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+}
+
+.app{
+    
+    width: 100%;
+    height: 100%; 
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.header{
+    height: 10%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 1em; */
+    align-items: center;
+    gap: 40em;
+    box-shadow: 0em 0em 0.5em;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.logo-container{
+   border: 0.2em solid rgb(150, 144, 144); 
+   border-radius: 1em;
+}
+.nav-items >ul{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 1em;
+    justify-content: space-evenly;
+}
+.nav-items > ul > li{
+    list-style: none;
+    font-size: 2em;
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+    /* margin: 1em; */
+}
+.search{
+    padding: 0.5em;
+    height: 10%;
+}
+
+.res-container{
+    height: 60%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.res-card {
+    width: 20%;
+    background-color: pink;
+    padding: 1%;
+    text-overflow: inherit;
+}
+.card-logo{
+    width: 100%;
+}
