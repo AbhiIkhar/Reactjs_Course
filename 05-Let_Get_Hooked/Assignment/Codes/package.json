@@ -4,7 +4,7 @@
   "description": "This is the practise project ",
   "scripts": {
     "test": "Jest",
-    "start":"npx parcel index.html",
+    "start": "npx parcel index.html",
     "build": "npx parcel build index.html"
   },
   "keywords": [
@@ -14,7 +14,8 @@
   "author": "Abhishek",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.10.3"
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.2.0",

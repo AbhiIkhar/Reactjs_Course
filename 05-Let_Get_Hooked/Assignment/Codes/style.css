@@ -51,7 +51,14 @@ li{
 .Search{
     height: 9%;
     padding-bottom: 3%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Search > h1{
+    width: 20%;
+    border: 0.05em solid rgb(94, 91, 91);
+    background-color: rgb(147, 193, 239);
 }
 .resList{
     height: 88%;
