@@ -55,7 +55,7 @@ Why keys?
 ## Optional chaining :
 
 1. ex : const nestedProp = obj.first?.second;
-   By using ?. operator we r telling to js to implicitly check whether obj.first is null/undefine or not if it is null/undefine expression automatically short-circuits and return undefined.
+   By using ?. operator we r telling to js to implicitly check whether obj.first is null/undefine or not if it is null/undefine expression automatically short-circuits and return "undefined".
 
 2. above ex can be written as const nestedProp = obj?.first
    ===> const nestedProp = obj===null|| obj===undefined ? undefined : obj.first.
