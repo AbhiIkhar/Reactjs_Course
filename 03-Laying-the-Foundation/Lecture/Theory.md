@@ -51,6 +51,5 @@ then u don't need to worry jsx take care of such cross site scripting attack
 
 ## Previous Lecture
 
-- Arrow Function in js -- Will do slowly
 - Read About Different Bundlers (Webpack,vite and parcel) - Will read
 - Parcel powers - Will read when I want to make project using there feature in cpp

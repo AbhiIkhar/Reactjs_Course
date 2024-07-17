@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This is the first package created by Abhi",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev":"npx parcel index.html",
+    "build":"npx parcel build index.html"
   },
   "author": "Abhishek",
   "license": "ISC",

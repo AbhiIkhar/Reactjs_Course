@@ -45,6 +45,9 @@ Why keys?
 - Key should be unique so we can use index as our key in map the 2nd parameter is index itself.
 - But react itself says that don't use index as key - Why ?
 - Why ? ==> learn from official documentation it is bad practise
+  - We might face following issues when we use index value as key attribute when creating a list
+  - Performance Issues due to unnecessary re-renders.
+  - Issues in data mapping in case list items are sorted, filtered, or deleted.
 
 ## TODO : Read about fetch
 

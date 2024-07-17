@@ -5,7 +5,7 @@
 ## Superpowers of JSX :
 
 1. JSX can be written in html like syntax.
-2. We can eject our syntax in jsx using {}.
+2. We can eject our js syntax in jsx using {}.
 3. If we want eject some data which we fetching from some third party then we can do so without be woried about cross site scripting because jsx takes care of that.
 
 ## Why do multiple JSX tags need to be wrapped?

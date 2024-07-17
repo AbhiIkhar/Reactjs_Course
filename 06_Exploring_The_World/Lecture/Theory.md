@@ -73,4 +73,24 @@ const [var,setVar] = useState("abhi");
 
 ### Whenever there is change in state variable the react trigger the reconcillation cycle and re-render the component again
 
-## TODO: Build a feature as user scroll gave them more restaurant.
+## TODO: Build a feature as user scroll gave them more restaurant. - Infinite Scroll
+
+//
+
+1. Fetch API from swiggy and do operations on that instead of hard-coding.
+
+   - What is the use of useEffect ?
+     => Use effect is utility function provided by react js (its a hook) which is used to handle the side effection of functional component.
+   - How it works ?
+
+     - Mounting : Effect function of useEffect get executed at intial rendering.
+     - Updating : whenever somthing of dependent array got change then that effect function get reexecuted.
+     - UnMounting : When fucntion is unmounted (taken out from the DOM) then cleanfunction will be executed.
+
+   - Dependency Array :
+     - Not provided : effect funcction in useffect will executed after every rerender and first time also.
+     - Empty array : It will executed first time only.
+     - Filled array : effect funcction in useffect will executed after every dependent component change and first time also.
+
+2. Write code for Shimmer UI do conditional UI rendering
+3. Write functionality for searching .

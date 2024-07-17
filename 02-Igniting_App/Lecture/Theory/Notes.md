@@ -14,7 +14,7 @@
 
 Note: we are using parcel as (-D ==> dev dependency) ---> npm install -D parcel
 Note :
-a. talde (~):If when there is major upgrade then parcel bundler will updrage it automatically when u put (^).
+a. talde (~):If when there is major upgrade then parcel bundler will updrage it automatically when u put (~).
 
 b. caret(^)==>If when there is minor upgrade then parcel bundler will updrage it automatically when u put (^).
 
