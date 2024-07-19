@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#root{
+    width: 100%;
+    height: 100%; 
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+.app{
+    width: 100%;
+    height: 100%; 
+    box-sizing: border-box;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.header{
+    height: 10%;
+    box-shadow: 0em 0em 0.5em;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    display: flex;
+    gap: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.logo-container{
+    border: 0.2em solid rgb(150, 144, 144); 
+    border-radius: 1em;
+}
+.nav-items{
+    display: flex;
+    gap: 1em;
+}
+.nav-items >ul{
+    display: flex;
+    gap: 1em;
+    font-size: 2em;
+}
+
+.main{
+    height: 67%;
+}
+
+.filter{
+    height: 9%;
+    padding-bottom: 3%;
+    text-align: center;
+    display: flex;
+    /* gap: 3em; */
+    justify-content: space-around;
+}
+
+.filter-btn{
+    cursor: pointer;
+    border: 0.1em solid black;
+    padding: 0.1em;
+}
+.resList{
+    height: 88%;
+  margin: 2%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 0.2em;
+   overflow: scroll;
+}
+.restoPage{
+    text-decoration: none;
+ 
+
+}
+.res-card{
+    width: 30%;
+    border: 0.1em solid black;
+    padding: 1%;
+    background-color: rgb(195, 186, 203);
+}
+.res-image{
+    width: 100%;
+    height: 50%;
+}
+
+.Shimmer{
+   height: 100%;
+   margin: 2%;
+   display: flex;
+   /* flex-direction: column; */
+   flex-wrap: wrap;
+   gap: 2em;
+   overflow: scroll;
+}
+.List{
+    width: 10%;
+    border: 0.1em solid black;
+    padding: 1%;
+    background-color: rgb(172, 171, 171);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.logo{
+    height: 50%;
+    border: 0.04em solid black;
+}
+.content{
+    height: 50%;
+    border: 0.04em solid black;
+}
+
+.login{
+    font-size: 1em;
+    width:30%;
+    background-color: rgb(64, 169, 188);
+    border: 0.04em solid black;
+}
+
+
+
+
+.sign-in-form {
+    position: absolute;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease-in-out;
+}
+  
+  .sign-in-form.open {
+    right: 0;
+  }
+  
+  .sign-in-form h2 {
+    margin-top: 0;
+  }
+  
+  .sign-in-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sign-in-form form label {
+    margin-bottom: 10px;
+  }
+  
+  .sign-in-form form input {
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .sign-in-form form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user{
+    margin: 2%;
+    padding: 2%;
+    border: 2px solid black;
+}
