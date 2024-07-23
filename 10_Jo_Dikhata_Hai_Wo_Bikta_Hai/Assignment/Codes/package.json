@@ -1,0 +1,29 @@
+{
+  "name": "myresot",
+  "version": "1.0.0",
+  "description": "This is practise app",
+  "scripts": {
+    "test": "Jest",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "keywords": [
+    "React",
+    "Hook",
+    "useEffect"
+  ],
+  "author": "Abhishek Ikhar",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.25.1"
+  },
+  "browserlist": [
+    "last 4 versions"
+  ]
+}
