@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
@@ -7,16 +7,28 @@ import About from "./components/About";
 import Error from "./components/Error";
 import Restaurant from "./components/Restuarant";
 import Contact from "./components/ContactComponent";
+import { useState } from "react";
+import UserContext from "./utils/UserContext";
 
 // import Grocerry from "./components/Grocerry";
 
 const Grocerry = lazy(() => import("./components/Grocerry"));
 const App = () => {
+  const [userName, setUserName] = useState(null);
+
+  useEffect(() => {
+    // Make api call and I got the data
+    const data = { name: "Abhishek Ikhar" };
+    setUserName(data.name);
+  }, []);
+
   return (
-    <div className="app">
-      <Header />
-      <Outlet />
-    </div>
+    <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
+      <div className="app">
+        <Header />
+        <Outlet />
+      </div>
+    </UserContext.Provider>
   );
 };
 
