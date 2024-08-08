@@ -10,7 +10,7 @@ const ItemCard = (props) => {
     dispatch(addItems(resObj));
   }
   return (
-    <div className="flex my-10 border-b-2 p-2 border-gray-500">
+    <div className="flex w-9/12 my-10 border-b-2 p-2 border-gray-500">
       <div className="w-9/12">
         <div className="py-5">
           <h1 className="text-lg font-bold">{resObj?.name}</h1>
